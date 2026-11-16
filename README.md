@@ -22,7 +22,7 @@ No AIDE: abra a pasta `flowlabs-roleplay` e toque em **Run**.
 Estilo de launcher de jogo: arte da cidade em tela cheia, logo no centro, atalhos nos cantos e o botão **JOGAR**.
 **Nenhuma tela tem rolagem.** Servidores, loja, novidades e configurações abrem em painéis de vidro por cima da tela.
 
-- Fontes: **Anton** (títulos e logo) e **Poppins** (interface), ambas de licença livre (OFL, em `assets/fonts`).
+- Fonte: **Inter** (licença livre OFL, em `assets/fonts`).
 - Cores: noite `#07080F`, violeta `#7C4DFF`, magenta `#E0457B`, âmbar `#FFB547`. O botão principal usa o degradê de pôr do sol âmbar → magenta.
 - Arte: `res/drawable-nodpi/bg_city.jpg` (fundo) e `loading.jpg` (tela de carregamento "FlowLabs Studio apresenta").
 - Ícone: `res/drawable/ic_launcher.png`. As versões para a loja ficam em `store/` (`icon-512.png` e `feature-1024x500.jpg`).

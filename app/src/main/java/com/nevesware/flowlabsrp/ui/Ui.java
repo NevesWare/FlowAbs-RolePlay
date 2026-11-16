@@ -54,8 +54,8 @@ public final class Ui {
     // ---------------- Fontes ----------------
     public static final int REGULAR = 0, MEDIUM = 1, SEMIBOLD = 2, BOLD = 3, DISPLAY = 4;
     private static final String[] FONT_FILES = {
-            "fonts/Poppins-Regular.ttf", "fonts/Poppins-Medium.ttf", "fonts/Poppins-SemiBold.ttf",
-            "fonts/Poppins-Bold.ttf", "fonts/Anton-Regular.ttf"};
+            "fonts/Inter-Regular.ttf", "fonts/Inter-Medium.ttf", "fonts/Inter-SemiBold.ttf",
+            "fonts/Inter-Bold.ttf", "fonts/Inter-Bold.ttf"};
     private static final Typeface[] FONTS = new Typeface[FONT_FILES.length];
 
     public static Typeface font(Context c, int weight) {
