@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.nevesware.flowlabsrp"
+        // 21 = Android 5.0: necessário para o seletor de pastas (importação dos arquivos do jogo).
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    // Sem bibliotecas externas de propósito: o projeto compila direto no AIDE.
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
